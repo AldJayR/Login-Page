@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-box">
+    <div class="login-text">Login</div>
+   
+    <div class="container">
+      <div class="credentials">
+        <form action="/action_page.php" method="POST">
+        <label class="credential-label" for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" name="email" class="input-text" required>
+        <label class="credential-label" for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" name="password" class="input-text password" required>
+        </form>
+        <button class="sign-in-button" type="submit">Sign In</button>
+        <p class="register-now">Not yet registered? <a href="">Register now</a></p>
+      </div>
+      <div class="qr-code-sign-in">
+        <div class="img-container">
+          <img src="signup.png" class="qr-code">
+        </div>
+        <p class="scan">Scan with your mobile phone to sign in</p>
+        <p class="scan">Welcome, BSIT - 1G Student!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
